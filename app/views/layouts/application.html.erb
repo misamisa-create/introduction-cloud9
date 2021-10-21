@@ -12,7 +12,37 @@
   </head>
 
   <body>
+    <!-- jquery -->
+    <script src="jquery.min.js"></script>
+    <script src="application.js"></script>
+    
+    <header id="header">
+      <!-- 画像と文字 -->
+      <nav id="global-nav">
+        <%= image_tag('11.jpeg') %>
+        <h1 class="global-list name-title">Misa Matsuyama Portfolio</h1>
+      </nav>
+      <!-- ↑画像と文字 -->
+    </header>
     <%= yield %>
+    <footer id="footer">
+      <p>©︎misamisa portfolio</p>
+      <nav id="buttonwrap">
+        <ul id="list">
+          <li>
+            <a href="https://www.instagram.com/3i3a___m/">
+              <i class="fab fa-instagram-square icons"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/3i3a___m">
+              <i class="fab fa-twitter-square icons"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    
+    </footer>
   </body>
 </html>
 
