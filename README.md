@@ -2,5 +2,5 @@
 自分の作った制作物を紹介するためのポートフォリオです。
 プログラミングだけでなくイラストやデザインの紹介もしています。
 
-操作動画
-https://github.com/misamisa-create/introduction-cloud9/issues/2#issue-1032173636
+https://user-images.githubusercontent.com/83994010/138383837-c6fec69e-456e-4463-90b8-862320b750cd.mov
+
